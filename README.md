@@ -1,24 +1,13 @@
 # estacionamiento-frontend
 
-## Project setup
+## Descargar e instalar dependencias
+Ejecuta este comando para instalar todas las librerías necesarias para el proyecto:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### iniciar servidor de desarrollo
+Este comando levanta el servidor local para ver la aplicación en el navegador:
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+``` 
