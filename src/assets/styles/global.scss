@@ -1,0 +1,59 @@
+/* Paleta base */
+:root {
+  --primary-dark: #2c3e50;
+  --text-dark: #2c3e50;
+  --border-color: #e5e7eb;
+}
+
+/* Títulos de secciones */
+.titulo-seccion {
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+/* Tablas */
+.table thead th {
+  background-color: var(--primary-dark);
+  color: #ffffff;
+}
+
+/* Reutilizable para tarjetas/sombras suaves */
+.sombra-suave {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Modal genérico */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog {
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Spinner */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Utilidades */
+.btn-icon-sm i {
+  margin-right: 6px;
+}
+
+/* Responsive general para tablas y botones */
+@media (max-width: 768px) {
+  .table-responsive { overflow-x: auto; }
+  h2 { font-size: 1.4rem; }
+  .btn { font-size: 0.85rem; padding: 0.25rem 0.4rem; }
+}
